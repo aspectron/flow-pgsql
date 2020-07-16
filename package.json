@@ -1,0 +1,36 @@
+{
+  "name": "@aspectron/flow-pgsql",
+  "version": "0.0.2",
+  "description": "PostgreSQL interface and daemon manager",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspectron/flow-pgsql"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "pg" : "*"
+  },
+  "devDependencies": {
+    "eslint": "*",
+    "eslint-config-google": "*",
+    "jsdoc": "*",
+    "flow-jsdoc-template": "git+https://github.com/aspectron/flow-jsdoc-template"
+  },
+  "scripts": {
+    "docs": "node_modules/.bin/jsdoc --configure .jsdoc.js --verbose"
+  },
+  "author": {
+    "name": "ASPECTRON Inc.",
+    "email": "info@aspectron.com",
+    "url": "https://aspectron.com"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "README.md",
+    "LICENSE",
+    ".jsdoc.js"
+  ]
+}
