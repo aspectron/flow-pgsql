@@ -10,7 +10,12 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
-    "pg" : "*"
+    "pg": "*",
+    "fs-extra": "*",
+    "is-docker": "*",
+    "@aspectron/flow-utils": "*",
+    "@aspectron/flow-process": "*",
+    "@aspectron/flow-async": "*"
   },
   "devDependencies": {
     "eslint": "*",
