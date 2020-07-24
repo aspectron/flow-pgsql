@@ -1,6 +1,6 @@
 {
   "name": "@aspectron/flow-pgsql",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "PostgreSQL interface and daemon manager",
   "main": "index.js",
   "repository": {
@@ -10,12 +10,12 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
-    "pg": "*",
+    "@aspectron/flow-async": "*",
+    "@aspectron/flow-process": "*",
+    "@aspectron/flow-utils": "0.0.5",
     "fs-extra": "*",
     "is-docker": "*",
-    "@aspectron/flow-utils": "*",
-    "@aspectron/flow-process": "*",
-    "@aspectron/flow-async": "*"
+    "pg": "*"
   },
   "devDependencies": {
     "eslint": "*",
