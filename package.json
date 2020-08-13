@@ -12,7 +12,7 @@
   "dependencies": {
     "@aspectron/flow-async": "*",
     "@aspectron/flow-process": "*",
-    "@aspectron/flow-utils": "0.0.5",
+    "@aspectron/flow-utils": "*",
     "fs-extra": "*",
     "is-docker": "*",
     "pg": "*"
