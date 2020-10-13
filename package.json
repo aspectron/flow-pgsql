@@ -1,6 +1,6 @@
 {
   "name": "@aspectron/flow-pgsql",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "PostgreSQL interface and daemon manager",
   "main": "index.js",
   "repository": {

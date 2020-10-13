@@ -1,2 +1,3 @@
 const FlowPgSQL = require("./lib/pgsql");
-module.exports = FlowPgSQL;
+const FlowPostgres = require('./lib/postgres');
+module.exports = { FlowPgSQL, FlowPostgres };
